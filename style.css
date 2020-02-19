@@ -11,6 +11,10 @@ hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padd
 input,select{vertical-align:middle}
 
 body,html {
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 	background-color: #FFF;
 	margin:0; /*gets rid of white space around body*/
 	height: 100vh; /*you can let your content define it's height*/
