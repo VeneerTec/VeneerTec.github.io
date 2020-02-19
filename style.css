@@ -10,9 +10,6 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
-
-
-
 body,html {
 	background-color: #FFF;
 	margin:0; /*gets rid of white space around body*/
@@ -24,7 +21,7 @@ body,html {
 	background: #863493;
 	margin-top: auto;
 	clear: both;
-	text-align: right;
+	text-align: center;
 	font-weight: bolder;
 	color: #ffffff;
 	width: 100%;
@@ -83,5 +80,3 @@ body > section {
     border-bottom: 1px solid #999;
     color: #333;
 }
-
-
