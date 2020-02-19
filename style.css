@@ -17,7 +17,7 @@ input,select{vertical-align:middle}
 
 .button {
   width: 800px;
-  background-color: #7f00ff;
+  background-color: #863493;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -34,7 +34,7 @@ input,select{vertical-align:middle}
 }
 
 #sticky {
-	background: #7f00ff;
+	background: #863493;
 	margin-top: auto;
 	clear: both;
 	text-align: left;
@@ -54,7 +54,7 @@ body,html {
 	position:relative; /*REQUIRED Sets up positioning for your footer*/
 }
 header {
-    background: #7f00ff;
+    background: #863493;
     padding: 20px 30px;
     margin: auto;
 	font-weight: bolder;
