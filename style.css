@@ -13,7 +13,7 @@ input,select{vertical-align:middle}
 body,html {
 	background-color: #FFF;
 	margin:0; /*gets rid of white space around body*/
-	height:100vh; /*you can let your content define it's height*/
+	height:98vh; /*you can let your content define it's height*/
 	position:relative; /*REQUIRED Sets up positioning for your footer*/
 }
 
