@@ -23,17 +23,17 @@ body,html {
 }
 
 .button {
-  width: 35%;
-  background-color: #863493;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 20px;
-  margin: 10px auto;
-  cursor: pointer;
+	width: 35%;
+	background-color: #863493;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	margin: 10px auto;
+	cursor: pointer;
 }
 
 .wrapper {
