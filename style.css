@@ -11,29 +11,23 @@ hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padd
 input,select{vertical-align:middle}
 
 body,html {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 	width: 100%;
-    margin: 0px;
-    padding: 0px;
     overflow-x: hidden; 
 	background-color: #FFF;
 	margin:0; /*gets rid of white space around body*/
-	height: 100vh; /*you can let your content define it's height*/
-	position:relative; /*REQUIRED Sets up positioning for your footer*/
 }
 
-#sticky {
+.footer {
 	background: #863493;
-	margin-top: auto;
-	clear: both;
 	text-align: center;
 	font-weight: bolder;
 	color: #ffffff;
-	width: 100%;
-	height: auto;
-	position:absolute; /*Here's what sticks it*/
-	bottom:0;          /*to the bottom of the body/page*/
-	left:0;            /*and to the left of the body/page.*/
+	height: 60px;
 }
+
 
 .button {
   width: 35%;
@@ -45,15 +39,19 @@ body,html {
   text-decoration: none;
   display: block;
   font-size: 20px;
-  margin: 20px auto;
+  margin: 10px auto;
   cursor: pointer;
 }
 
 .wrapper {
+	flex: 1;
     text-align: center;
+	word-wrap: break-word;
+	min-height: 100%;
 }
 
 header {
+	width: 100%;
     background: #863493;
     padding: 20px 30px;
     margin: auto;
