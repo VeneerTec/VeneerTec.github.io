@@ -1,48 +1,55 @@
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
-body{line-height:1; font-family: arial;}
-h1{font-size: 20px; color: #ffffff;padding: 8px;}h2{font-size: 21px;}h3{font-size: 18px;}h4{font-size: 16px;}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-weight: bold;
+	vertical-align: baseline;
+	background: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+}
 
+h1 {
+	font-weight: bold;
+	color: #ffffff;
+}
 header {
 	width: 100%;
-    background: #863493;
-    padding-top: 20px;
+	background: #863493;
+	padding-top: 20px;
 	padding-bottom: 20px;
 	font-weight: bolder;
 	text-align: center;
 }
-
-body,html {
+body, html {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
 	width: 100%;
-    overflow-x: hidden; 
+	overflow-x: hidden;
 	background-color: #FFF;
-	margin:0; /*gets rid of white space around body*/
+	margin: 0;
 }
-
 .button {
 	width: 35%;
 	background-color: #863493;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: block;
-	font-size: 20px;
-	margin: 10px auto;
-	cursor: pointer;
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: block;
+  	font-size: 20px;
+  	margin: 10px auto;
+  	cursor: pointer;
 }
-
 .wrapper {
 	flex: 1;
-    text-align: center;
+        text-align: center;
 	word-wrap: break-word;
 	min-height: 100%;
 }
-
 footer {
 	padding-top: 5px;
 	padding-bottom: 5px;
