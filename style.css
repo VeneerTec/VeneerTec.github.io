@@ -16,15 +16,20 @@ h1 {
 	color: #ffffff;
 }
 .important {
-	border: 1px red solid;
-	width: auto;
-	padding: 16px;
+	width: 25%;
+  	text-align: center;
+  	display: block;
+  	margin: 5px auto;
+	display: block;
+	border: 3px red solid;
+	padding: 8px;
+	font-weight: bolder;
 }
 
 .header {
 	width: 100%;
 	background: #863493;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 	font-weight: bolder;
 	text-align: center;
@@ -39,16 +44,18 @@ body, html {
 	margin: 0;
 }
 .langButton {
-	width: 20%;
-	background-color: #863493;
-  	color: white;
+	width: 15%;
+	background-color: #ffffff;
+  	color: black;
   	padding: 8px 16px;
   	text-align: center;
-  	display: block;
+	position: absolute;
+    top:5px;
+    right:5px;
   	font-size: 16px;
-  	margin: auto;
 	cursor: pointer;
 }
+
 .button {
 	width: 35%;
 	background-color: #863493;
