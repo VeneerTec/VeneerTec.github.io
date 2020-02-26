@@ -13,8 +13,10 @@
 
 h1 {
 	font-weight: bold;
+	font-size: 120%;
 	color: #ffffff;
 }
+
 .important {
 	width: 25%;
   	text-align: center;
@@ -23,7 +25,7 @@ h1 {
 	display: block;
 	border: 3px red solid;
 	padding: 8px;
-	font-weight: bolder;
+	background: #ffd4d1
 }
 
 .header {
@@ -44,14 +46,15 @@ body, html {
 	margin: 0;
 }
 .langButton {
-	width: 15%;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	width: 130px;
 	background-color: #ffffff;
+	border: 1px black solid;
   	color: black;
-  	padding: 8px 16px;
-  	text-align: center;
-	position: absolute;
-    top:5px;
-    right:5px;
+	padding: 2px 2px;
+  	text-align: center;	
   	font-size: 16px;
 	cursor: pointer;
 }
@@ -75,17 +78,13 @@ body, html {
 	word-wrap: break-word;
 	min-height: 100%;
 }
-.footer {
+footer {
+	text-align: right;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	padding-right: 20px;
-	text-align: right;
+	padding-right: 10px;
+	background: #863493;
 	font-weight: bolder;
-	height: 60px;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: #863493;
 	color: #ffffff;
+	height: 60px;
 }
